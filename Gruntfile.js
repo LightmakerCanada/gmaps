@@ -66,9 +66,13 @@ module.exports = function(grunt) {
       all : {
         src : 'gmaps.js',
         objectToExport : 'GMaps',
-        amdModuleId : 'GMaps',
-        globalAlias : 'GMaps',
-        template : 'umd.hbs'
+        template : 'amd.hbs',
+        deps : {
+          amd : [
+            'jquery',
+            'google-maps-api'
+          ]
+        }
       }
     }
 

@@ -1,14 +1,4 @@
-(function(root, factory) {
-  if(typeof exports === 'object') {
-    module.exports = factory();
-  }
-  else if(typeof define === 'function' && define.amd) {
-    define('GMaps', [], factory);
-  }
-
-  root.GMaps = factory();
-
-}(this, function() {
+define(['jquery', 'google-maps-api'], function(){
 
 /*!
  * GMaps.js v0.4.16
@@ -2144,6 +2134,6 @@ if (!Array.prototype.indexOf) {
       return -1;
   }
 }
-  
+
 return GMaps;
-}));
+});
