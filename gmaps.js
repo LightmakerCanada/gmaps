@@ -1,4 +1,4 @@
-define(['jquery', 'google-maps-api'], function(){
+define(['jquery', 'googlemaps!'], function(){
 
 /*!
  * GMaps.js v0.4.16

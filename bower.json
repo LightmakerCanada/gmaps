@@ -1,5 +1,8 @@
 {
   "name": "gmaps",
   "version": "0.4.16",
-  "main": "gmaps.js"
+  "main": "gmaps.js",
+  "dependencies": {
+    "googlemaps-amd": "~1"
+  }
 }

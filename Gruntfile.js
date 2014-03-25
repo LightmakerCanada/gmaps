@@ -70,7 +70,7 @@ module.exports = function(grunt) {
         deps : {
           amd : [
             'jquery',
-            'google-maps-api'
+            'googlemaps!'
           ]
         }
       }
